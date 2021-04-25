@@ -1,7 +1,7 @@
 <template>
   <div>
     <audio id="audio-player" class="hidden" ref="player">
-      <source src="../assets/pilot.mp3" type="audio/mpeg" />
+      <source src="../assets/pilot/pilot.mp3" type="audio/mpeg" />
       Your browser does not support the audio tag.
     </audio>
     <div>

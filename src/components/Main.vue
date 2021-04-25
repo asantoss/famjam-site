@@ -180,9 +180,11 @@ import {
   SparklesIcon,
   XIcon,
 } from "@heroicons/vue/outline";
+import marked from "marked";
 import { ChevronDownIcon } from "@heroicons/vue/solid";
 import Team from "./Team.vue";
 import Player from "./Player.vue";
+
 const footerNavigation = {
   solutions: [
     { name: "Marketing", href: "#" },
